@@ -4,19 +4,21 @@
 Includes an interactive Streamlit app for patient/workout inputs, intensity zone reporting, and transparent performance metrics.
 
 ---
-## Images
-<img src="images/Screenshot 2025-10-23 190357.png" alt="UI Screenshot" width="400"/>
-<img src="images/Screenshot 2025-10-23 190424.png" alt="UI Screenshot" width="400" style="margin-top: 20px" />
 
+## 📸 Images
+
+![UI Screenshot 1](images/Screenshot%202025-10-23%20190357.png)
+<br>
+![UI Screenshot 2](images/Screenshot%202025-10-23%20190424.png)
 
 ---
 
 ## 🚀 Overview
 
-- **Interactive web app**: Estimate calories burned with customizable demographic and exercise inputs via Streamlit.
-- **Intensity analysis**: Calculates intensity zone based on heart rate zones and maximum HR.
-- **Medical metrics**: Reports calories per minute and BMI alongside predictions.
-- **Educational use**: Research-focused; not for direct clinical deployment.
+- **Interactive web app:** Estimate calories burned with customizable demographic and exercise inputs via Streamlit.
+- **Intensity analysis:** Calculates intensity zone based on heart rate zones and maximum HR.
+- **Medical metrics:** Reports calories per minute and BMI alongside predictions.
+- **Educational use:** Research-focused; not for direct clinical deployment.
 
 ---
 
@@ -32,14 +34,11 @@ Includes an interactive Streamlit app for patient/workout inputs, intensity zone
 
 ## ⚡ Quick Start
 
-**1. Clone this repo and navigate into it.**
+1. Clone this repo and navigate into it.
 
-**2. Create a virtual environment and install dependencies:**
+2. Create a virtual environment and install dependencies:
 
-
-**3. Start the Streamlit app:**
-
-**4. Open the app** in your browser at the address shown in the terminal (usually http://localhost:8501).
+4. Open the app in your browser at the address shown in the terminal (usually http://localhost:8501).
 
 ---
 
@@ -47,9 +46,9 @@ Includes an interactive Streamlit app for patient/workout inputs, intensity zone
 
 - Use the UI to input: **Gender, Age, Height, Weight, Duration, Heart Rate, Body Temp**
 - Click **"🔬 ANALYZE WORKOUT"** to predict:
-  - Calories burned (primary output)
-  - Calories per minute, BMI
-  - Intensity zone and maximum heart rate (calculated with formulas)
+- Calories burned (primary output)
+- Calories per minute, BMI
+- Intensity zone and maximum heart rate (calculated with formulas)
 - Data is processed, encoded, and passed to the random forest model for prediction.
 
 ---
@@ -61,7 +60,7 @@ Full preprocessing, model training, and evaluation pipeline is in
 - **Missing value handling** (SimpleImputer)
 - **Feature encoding** (e.g., Gender → numeric)
 - **Random Forest**: 80-20 train/test, MAE/R² reporting
-- **Artifacts**: Saves `calories_model.pkl`, `metrics.pkl` (must be in repo root for live predictions)
+- **Artifacts:** Saves `calories_model.pkl`, `metrics.pkl` (must be in repo root for live predictions)
 
 *To retrain with new data:*
 - Edit & run the notebook.
@@ -83,4 +82,3 @@ Full preprocessing, model training, and evaluation pipeline is in
 - `calculate_max_heart_rate`: Computes max HR (\( \text{MHR} = 220 - \text{age} \))
 - `get_intensity_zone`: Maps %HRmax to intensity zone
 
----
