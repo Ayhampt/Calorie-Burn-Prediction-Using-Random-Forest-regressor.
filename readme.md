@@ -7,9 +7,12 @@ Includes an interactive Streamlit app for patient/workout inputs, intensity zone
 
 ## 📸 Images
 
-![UI Screenshot 1](images/Screenshot%202025-10-23%20190357.png)
+![Calorie Burn Prediction Screenshot](https://github.com/Ayhampt/Calorie-Burn-Prediction-Using-Random-Forest-regressor./raw/663443b187f0bb2dff59b057d13f46ed0a42f3ac/Images/Screenshot%202025-10-23%20190357.png)
+
 <br>
-![UI Screenshot 2](images/Screenshot%202025-10-23%20190424.png)
+
+![Calorie Burn Prediction Screenshot 2](https://github.com/Ayhampt/Calorie-Burn-Prediction-Using-Random-Forest-regressor./blob/663443b187f0bb2dff59b057d13f46ed0a42f3ac/Images/Screenshot%202025-10-23%20190424.png)
+
 
 ---
 
